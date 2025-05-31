@@ -78,5 +78,4 @@ jobs:
           kubectl get pods
           echo -e "\n--- Service Status ---"
           kubectl get service
-          echo -e "\n--- create tunnel"
-          minikube tunnel
+          
