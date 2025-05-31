@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: house-price-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: house-price
   ports:
