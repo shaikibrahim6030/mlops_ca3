@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: house-price-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: house-price
